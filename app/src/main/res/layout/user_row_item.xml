@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="10dp"
+    android:elevation="10dp"
+    android:orientation="horizontal">
+
+    <!--<RelativeLayout-->
+    <!--android:layout_width="match_parent"-->
+    <!--android:layout_height="wrap_content">-->
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:id="@+id/profile_image_iv"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_centerVertical="true"
+        android:layout_margin="10dp" />
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/name_tv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="18sp"
+            android:padding="5dp"
+            android:textColor="@color/black"
+            />
+
+        <TextView
+            android:id="@+id/phone_no_tv"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="TextView"
+            android:drawablePadding="3dp"
+            android:textColor="@color/md_grey500"
+            android:drawableLeft="@drawable/ic_phone_black_24dp"/>
+
+        <TextView
+            android:id="@+id/email_no_tv"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="TextView"
+            android:drawablePadding="3dp"
+            android:textColor="@color/md_grey500"
+            android:drawableLeft="@drawable/ic_email_black_24dp"/>
+
+        <TextView
+            android:id="@+id/dob_tv"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@color/md_grey500"
+            android:drawableLeft="@drawable/ic_cake_black_24dp"
+            android:drawablePadding="3dp"
+            android:text="TextView" />
+    </LinearLayout>
+    <!--</RelativeLayout>-->
+
+</LinearLayout>

@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">SimpleApiApp</string>
+    <string name="no_network_msg">Network Error</string>
+</resources>
